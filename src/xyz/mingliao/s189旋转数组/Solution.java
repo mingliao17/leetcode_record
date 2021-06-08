@@ -57,6 +57,8 @@ public class Solution {
 
     /**
      * 官方题解方法3，数组反转
+     *
+     * 这个版本速度快，但内存消耗打，但我觉得循环是差不多的，甚至这个循环还多一些，为啥这个方法就快呢
      */
     public void rotate4(int[] nums, int k) {
         k %= nums.length;
