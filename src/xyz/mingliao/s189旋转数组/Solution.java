@@ -47,7 +47,48 @@ public class Solution {
         }
     }
 
+
+    /**
+     * 官方题解方法2没有看懂，环状替换，看是看懂了，但是思路没懂
+     */
+    public void rotate3(int[] nums, int k) {
+
+    }
+
+    /**
+     * 官方题解方法3，数组反转
+     */
+    public void rotate4(int[] nums, int k) {
+        k %= nums.length;
+        //反转整个数组
+        reverse(nums,0,nums.length-1);
+        //反转0-k区间
+        reverse(nums,0,k-1);
+        //反转k-nums.length区间
+        reverse(nums,k,nums.length-1);
+        //打印一下
+        for (int i : nums) {
+            System.out.println(i);
+        }
+    }
+
+    /**
+     * 基于官方题解3的子方法
+     * @param nums
+     * @param start
+     * @param end
+     */
+    public void reverse(int[] nums,int start,int end){
+        while( start < end){
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start += 1;
+            end -= 1;
+        }
+    }
+
     public static void main(String[] args) {
-        new Solution().rotate(new int[]{1, 2, 3, 4, 5, 6, 7}, 8);
+        new Solution().rotate4(new int[]{1, 2, 3, 4, 5, 6, 7}, 8);
     }
 }
