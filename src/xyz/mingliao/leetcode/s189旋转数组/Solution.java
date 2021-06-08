@@ -1,4 +1,4 @@
-package xyz.mingliao.s189旋转数组;
+package xyz.mingliao.leetcode.s189旋转数组;
 
 public class Solution {
     /**

@@ -1,4 +1,4 @@
-package xyz.mingliao.s1两数之和;
+package xyz.mingliao.leetcode.s1两数之和;
 
 import java.util.HashMap;
 import java.util.Map;

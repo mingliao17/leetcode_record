@@ -1,7 +1,6 @@
-package xyz.mingliao.s26删除有序数组中的重复项;
+package xyz.mingliao.leetcode.s26删除有序数组中的重复项;
 
 import java.util.HashSet;
-import java.util.Hashtable;
 
 /**
  * 我觉得这个问题提出的也有问题，要的还是一个删除重复数据后数组的数量

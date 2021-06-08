@@ -1,4 +1,4 @@
-package xyz.mingliao.s1114按序打印;
+package xyz.mingliao.leetcode.s1114按序打印;
 
 import java.util.concurrent.Semaphore;
 

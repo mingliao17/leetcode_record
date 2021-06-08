@@ -1,4 +1,4 @@
-package xyz.mingliao.s7整数反转;
+package xyz.mingliao.leetcode.s7整数反转;
 
 /**
  * leetcode巧妙的就是你能有挑战性地去解决问题，还能看到更多牛逼的解决方案

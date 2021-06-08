@@ -1,6 +1,5 @@
-package xyz.mingliao.s412FizzBuzz;
+package xyz.mingliao.leetcode.s412FizzBuzz;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 

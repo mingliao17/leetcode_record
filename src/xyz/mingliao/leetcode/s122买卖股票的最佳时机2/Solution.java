@@ -1,4 +1,4 @@
-package xyz.mingliao.s122买卖股票的最佳时机2;
+package xyz.mingliao.leetcode.s122买卖股票的最佳时机2;
 
 /**
  *  我觉得题目不太精准，应该是买卖股票的最大收益，因为要的终究是一个能获得的最大金额,像是这个方法名称
