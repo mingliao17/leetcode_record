@@ -1,4 +1,4 @@
-package xyz.mingliao.else_java_basic.thread_test;
+package xyz.mingliao.else_java_basic.juc.tools;
 
 import java.util.Random;
 import java.util.concurrent.Semaphore;

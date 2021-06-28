@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 
 public class ThreadPoolTest {
     public static void main(String[] args) {
-        BlockingQueue blockingDeque = new LinkedBlockingQueue(10);
+        BlockingQueue blockingDeque = new LinkedBlockingQueue();
 
         UserThreadFactory userThreadFactory = new UserThreadFactory("第一机房");
 
@@ -18,5 +18,7 @@ public class ThreadPoolTest {
         for (int i = 0; i < 200; i++) {
             tpe1.execute(task);
         }
+
+        tpe1.shutdown();
     }
 }

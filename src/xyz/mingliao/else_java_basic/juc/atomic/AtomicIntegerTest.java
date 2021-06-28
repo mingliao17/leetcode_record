@@ -1,4 +1,4 @@
-package xyz.mingliao.else_java_basic.thread_test;
+package xyz.mingliao.else_java_basic.juc.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
