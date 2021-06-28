@@ -25,11 +25,43 @@ public class Solution {
         return 0;
     }
 
+    //先排序再遍历，参考题解中网友的回答
+    public int singleNumber2(int[] nums){
+        Arrays.sort(nums);
+        if(nums.length == 1){
+            return nums[0];
+        }
+        if(nums[0] != nums[1]){
+            return nums[0];
+        }
+        for (int i = 1; i < nums.length; i++) {
+            if(nums[i] != nums[i-1]){
+                return nums[i-1];
+            }else {
+                i++;
+            }
+        }
+        return nums[nums.length-1];
+    }
+
+
+    //最优解，异或运算
+    //时间最快，但是内存消耗只超过了60%的人
+    public int singleNumber3(int[] nums){
+        int result = nums[0];
+        if(nums.length>1){
+            for (int i = 1; i <nums.length ; i++) {
+                result = result ^ nums[i];
+            }
+        }
+        return result;
+    }
+
 
     public static void main(String[] args) {
         Solution solution = new  Solution();
-        int[] nums = new int[]{1,0,1};
-        int result = solution.singleNumber(nums);
+        int[] nums = new int[]{2,2,1};
+        int result = solution.singleNumber3(nums);
         System.out.println(result);
     }
 }

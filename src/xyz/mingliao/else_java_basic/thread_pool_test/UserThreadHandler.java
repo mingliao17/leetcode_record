@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 public class UserThreadHandler implements RejectedExecutionHandler {
     @Override
     public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
-        System.out.println("rejected execution handler :"+executor.getActiveCount()+executor.getCompletedTaskCount()
+        System.out.println("我被拒绝了:"+executor.getActiveCount()+executor.getCompletedTaskCount()
             +executor.getCorePoolSize()+executor.getQueue());
     }
 }
