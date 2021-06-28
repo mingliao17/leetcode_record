@@ -11,3 +11,6 @@
 - [s122买卖股票的最佳时机2](src/xyz/mingliao/leetcode/s122买卖股票的最佳时机2/Solution.java)
 - [s189旋转数组](src/xyz/mingliao/leetcode/s189旋转数组/Solution.java)
 - [s1114按序打印](src/xyz/mingliao/leetcode/s1114按序打印/Foo.java)
+- [s217存在重复元素](src/xyz/mingliao/leetcode/s217存在重复元素/Solution.java)
+- [s412FizzBuzz](src/xyz/mingliao/leetcode/s412FizzBuzz/Solution.java)
+- [s136只出现一次的数字](src/xyz/mingliao/leetcode/s136只出现一次的数字/Solution.java)
