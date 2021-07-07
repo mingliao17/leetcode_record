@@ -46,7 +46,7 @@ public class Solution {
 
 
     //最优解，异或运算
-    //时间最快，但是内存消耗只超过了60%的人
+    //时间最快，但是内存消耗只超过了60%的人,可能就是因为声明了一个int对象吧
     public int singleNumber3(int[] nums){
         int result = nums[0];
         if(nums.length>1){
